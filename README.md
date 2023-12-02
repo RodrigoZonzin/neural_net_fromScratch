@@ -1,5 +1,5 @@
 # neural_net_fromScratch
-Implementation of a single neuron NN to classify Academic IDs. 
+Implementation of a single perceptron NN to classify Academic IDs. 
 
 Disciplina de Inteligência Artificial Aplicada do Curso de Ciência de Dados da Uninter. 
 
@@ -36,4 +36,7 @@ $$W_j^{(n+1)} = W_j^{(n)} + \eta\mathcal{E}_jX_j$$
 
 ### Acurácia 
 Dividindo-se o total de predições corrretas pelo total geral de predições no dataset de treino, temos:
+
 ![Acurácia](/resultados/resultado.png)
+
+
