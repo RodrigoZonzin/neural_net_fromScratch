@@ -9,7 +9,7 @@ $$RU = a_1 a_2 a_3 a_4 a_5 a_6 a_7$$
 sobre a qual $a_i \in \mathbb{N}, a_i = 0, 1, 2, \ldots , 9$
 
 Seja X um vetor representando um RU. O classificador $f$ opera sobre $X$ pela arquitetura de um Perceptron, modelado pela equação a seguir: 
-$$f(X) = \psi(<X, W> + b)$$
+$$f(X) = \psi(X \cdot W + b)$$
 
 onde a função de ativação $\psi$ é dada por:  
 $$\psi(z) = 
