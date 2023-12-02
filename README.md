@@ -19,7 +19,7 @@ $$\psi(z) = \begin{cases}
 		-1 & z < 0    \\
 	\end{cases}$$
 
-\section{Treinamento da Rede}
+### Treinamento da Rede
 Treinar uma rede neural envolve duas etapas: \textit{foward propagation} e \textit{back propagation}. Na primeira, é realizado a predição de um dado a partir de um vetor $X_i$. A etapa seguinte envolve a validação do dado predito, comparando-o com um rótulo de referência e ajustando os pesos $W$ da rede. 
 
 A partir de uma predição $\hat{y}$, caso $\hat{y} \neq y$, devemos atualizar os pesos W como segue: 
