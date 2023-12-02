@@ -32,8 +32,8 @@ $$W_j^{(n+1)} = W_j^{(n)} + \eta\mathcal{E}_jX_j$$
 
 ### Resultados
 #### Treinamento
-![Processo de treinamento](/neural_net_fromScratch/resultados/treinamento.png)
+![Processo de treinamento](/resultados/treinamento.png)
 
 ### Acurácia 
 Dividindo-se o total de predições corrretas pelo total geral de predições no dataset de treino, temos:
-![Acurácia](/neural_net_fromScratch//resultados/resultado.png)
+![Acurácia](/resultados/resultado.png)
